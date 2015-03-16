@@ -1,0 +1,637 @@
+﻿Log file open, 03/15/15 19:56:36
+LogInit:Display: Running engine for game: MyHouse
+LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.16-01.56.36:842][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2015.03.16-01.56.36:965][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.16-01.56.37:022][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.16-01.56.37:035][  0]LogInit: Object subsystem initialized
+[2015.03.16-01.56.37:041][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.16-01.56.37:041][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.16-01.56.37:050][  0]LogInit: Computer: NINJABOT
+[2015.03.16-01.56.37:050][  0]LogInit: User: Brad
+[2015.03.16-01.56.37:050][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.03.16-01.56.37:050][  0]LogInit: High frequency timer resolution =2.746503 MHz
+[2015.03.16-01.56.37:050][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2015.03.16-01.56.37:050][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.16-01.56.37:050][  0]LogMemory: Process Physical Memory: 47.16 MB used, 47.16 MB peak
+[2015.03.16-01.56.37:050][  0]LogMemory: Process Virtual Memory: 26.18 MB used, 26.18 MB peak
+[2015.03.16-01.56.37:050][  0]LogMemory: Physical Memory: 1753.04 MB used, 8189.55 MB total
+[2015.03.16-01.56.37:050][  0]LogMemory: Virtual Memory: 277.19 MB used, 8388608.00 MB total
+[2015.03.16-01.56.37:185][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 460 SE (Feature Level 11_0)
+[2015.03.16-01.56.37:185][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2015.03.16-01.56.37:185][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.16-01.56.37:192][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2015.03.16-01.56.37:204][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.16-01.56.37:446][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.16-01.56.37:631][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.16-01.56.41:330][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.16-01.56.42:342][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.16-01.56.42:470][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.16-01.56.42:546][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/Brad/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.16-01.56.42:546][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Brad/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.16-01.56.42:547][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.16-01.56.42:547][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.16-01.56.42:694][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.16-01.56.42:706][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.16-01.56.43:219][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.16-01.56.43:219][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.16-01.56.43:811][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.16-01.56.44:017][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.16-01.56.45:888][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.16-01.56.46:413][  0]SourceControl: Info Source control is disabled
+[2015.03.16-01.56.46:413][  0]SourceControl: Info Source control is disabled
+[2015.03.16-01.56.46:413][  0]SourceControl: Info Source control is disabled
+[2015.03.16-01.56.46:413][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.16-01.56.46:414][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.16-01.56.46:434][  0]SourceControl: Info Source control is disabled
+[2015.03.16-01.56.46:979][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.16-01.56.46:979][  0]LogUObjectAllocator: 5136432 out of 0 bytes used by permanent object pool.
+[2015.03.16-01.56.47:141][  0]LogEngine: Initializing Engine...
+[2015.03.16-01.56.49:398][  0]LogInit: XAudio2 using 'ASUS VH236H-1 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.16-01.56.49:436][  0]LogInit: FAudioDevice initialized.
+[2015.03.16-01.56.49:525][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.16-01.56.49:560][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Brad/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.16-01.56.49:570][  0]LogInit: Texture streaming: Enabled
+[2015.03.16-01.56.49:742][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.16-01.56.49:742][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.16-01.56.49:742][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.16-01.56.49:742][  0]LogAnalytics: SetUserId 2b7ccab54f4c668154698e96f7caff12|c4387afa28fc4879b208a4e43c750091|6d12690a-15d1-4ebd-a55d-ed64fc5aefd2
+[2015.03.16-01.56.49:742][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.16-01.56.50:102][  0]LogInit: Transaction tracking system initialized
+[2015.03.16-01.56.50:618][  0]BlueprintLog: New page: Editor Load
+[2015.03.16-01.56.50:691][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2015.03.16-01.56.50:692][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.16-01.56.51:767][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.16-01.56.52:321][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.16-01.56.58:090][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.16-01.56.58:091][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.16-01.56.58:109][  0]LogConsoleResponse:Display: 
+[2015.03.16-01.56.58:330][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.16-01.56.58:758][  0]SourceControl: Info Source control is disabled
+[2015.03.16-01.56.58:759][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-01.56.58:759][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.16-01.56.58:759][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.7/FeaturePacks/StarterContent.upack)
+[2015.03.16-01.57.06:504][  0]LogPackFactory: Content/StarterContent/Architecture/Floor_400x400.uasset (48141) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.03.16-01.57.06:507][  0]LogPackFactory: Content/StarterContent/Architecture/Pillar_50x500.uasset (65452) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2015.03.16-01.57.06:511][  0]LogPackFactory: Content/StarterContent/Architecture/SM_AssetPlatform.uasset (452977) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2015.03.16-01.57.06:520][  0]LogPackFactory: Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset (441) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset
+[2015.03.16-01.57.06:523][  0]LogPackFactory: Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset (439) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset
+[2015.03.16-01.57.06:526][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x200.uasset (42169) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/Wall_400x200.uasset
+[2015.03.16-01.57.06:529][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x300.uasset (41804) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/Wall_400x300.uasset
+[2015.03.16-01.57.06:530][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x400.uasset (43426) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/Wall_400x400.uasset
+[2015.03.16-01.57.06:532][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_500x500.uasset (57909) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/Wall_500x500.uasset
+[2015.03.16-01.57.06:534][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x300.uasset (52430) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2015.03.16-01.57.06:535][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x400.uasset (53246) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2015.03.16-01.57.06:537][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x300.uasset (53709) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2015.03.16-01.57.06:539][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x400.uasset (54778) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2015.03.16-01.57.06:540][  0]LogPackFactory: Content/StarterContent/Audio/Collapse01.uasset (348532) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Collapse01.uasset
+[2015.03.16-01.57.06:542][  0]LogPackFactory: Content/StarterContent/Audio/Collapse02.uasset (346701) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Collapse02.uasset
+[2015.03.16-01.57.06:544][  0]LogPackFactory: Content/StarterContent/Audio/Collapse_Cue.uasset (6113) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Collapse_Cue.uasset
+[2015.03.16-01.57.06:554][  0]LogPackFactory: Content/StarterContent/Audio/Explosion01.uasset (282440) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Explosion01.uasset
+[2015.03.16-01.57.06:556][  0]LogPackFactory: Content/StarterContent/Audio/Explosion02.uasset (289195) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Explosion02.uasset
+[2015.03.16-01.57.06:558][  0]LogPackFactory: Content/StarterContent/Audio/Explosion_Cue.uasset (7657) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Explosion_Cue.uasset
+[2015.03.16-01.57.06:559][  0]LogPackFactory: Content/StarterContent/Audio/Fire01.uasset (549696) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Fire01.uasset
+[2015.03.16-01.57.06:561][  0]LogPackFactory: Content/StarterContent/Audio/Fire01_Cue.uasset (3894) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Fire01_Cue.uasset
+[2015.03.16-01.57.06:563][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01.uasset (796274) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2015.03.16-01.57.06:565][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset (3908) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2015.03.16-01.57.06:566][  0]LogPackFactory: Content/StarterContent/Audio/Light01.uasset (364532) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Light01.uasset
+[2015.03.16-01.57.06:568][  0]LogPackFactory: Content/StarterContent/Audio/Light01_Cue.uasset (3852) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Light01_Cue.uasset
+[2015.03.16-01.57.06:570][  0]LogPackFactory: Content/StarterContent/Audio/Light02.uasset (308156) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Light02.uasset
+[2015.03.16-01.57.06:572][  0]LogPackFactory: Content/StarterContent/Audio/Light02_Cue.uasset (3852) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Light02_Cue.uasset
+[2015.03.16-01.57.06:573][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01.uasset (476002) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Smoke01.uasset
+[2015.03.16-01.57.06:575][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01_Cue.uasset (3872) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2015.03.16-01.57.06:577][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Background_Cue.uasset (9874) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2015.03.16-01.57.06:579][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Birds01.uasset (2689459) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Starter_Birds01.uasset
+[2015.03.16-01.57.06:605][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music01.uasset (8445372) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Starter_Music01.uasset
+[2015.03.16-01.57.06:617][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music_Cue.uasset (3390) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2015.03.16-01.57.06:618][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind05.uasset (2312702) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Starter_Wind05.uasset
+[2015.03.16-01.57.06:623][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind06.uasset (2195539) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Starter_Wind06.uasset
+[2015.03.16-01.57.06:627][  0]LogPackFactory: Content/StarterContent/Audio/Steam01.uasset (819028) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Steam01.uasset
+[2015.03.16-01.57.06:629][  0]LogPackFactory: Content/StarterContent/Audio/Steam01_Cue.uasset (3900) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Audio/Steam01_Cue.uasset
+[2015.03.16-01.57.06:631][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset (1011) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2015.03.16-01.57.06:632][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset (44857) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2015.03.16-01.57.06:634][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset (67062) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2015.03.16-01.57.06:646][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset (100458) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2015.03.16-01.57.06:647][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset (75669) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2015.03.16-01.57.06:649][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/Skybox.uasset (644855) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2015.03.16-01.57.06:651][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset (520136) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2015.03.16-01.57.06:653][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset (1506) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2015.03.16-01.57.06:655][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset (66613) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2015.03.16-01.57.06:657][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset (8324) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2015.03.16-01.57.06:735][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset (8332) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2015.03.16-01.57.06:741][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset (8346) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2015.03.16-01.57.06:746][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset (8365) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2015.03.16-01.57.06:752][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset (8354) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2015.03.16-01.57.06:757][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset (52866) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2015.03.16-01.57.06:762][  0]LogPackFactory: Content/StarterContent/Blueprints/BP_LightStudio.uasset (337416) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2015.03.16-01.57.06:768][  0]LogPackFactory: Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset (72364642) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2015.03.16-01.57.06:915][  0]LogPackFactory: Content/StarterContent/Maps/Advanced_Lighting.umap (223408) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Maps/Advanced_Lighting.umap
+[2015.03.16-01.57.06:917][  0]LogPackFactory: Content/StarterContent/Maps/Minimal_Default.umap (2154106) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Maps/Minimal_Default.umap
+[2015.03.16-01.57.06:921][  0]LogPackFactory: Content/StarterContent/Maps/StarterMap.umap (16371806) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Maps/StarterMap.umap
+[2015.03.16-01.57.06:952][  0]LogPackFactory: Content/StarterContent/Materials/M_AssetPlatform.uasset (68672) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2015.03.16-01.57.06:954][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Floor.uasset (65286) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2015.03.16-01.57.06:956][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Wall.uasset (55455) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2015.03.16-01.57.06:958][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset (100568) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2015.03.16-01.57.06:959][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_New.uasset (130734) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2015.03.16-01.57.06:961][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Old.uasset (123390) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2015.03.16-01.57.06:963][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset (122803) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2015.03.16-01.57.06:965][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset (90915) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2015.03.16-01.57.06:966][  0]LogPackFactory: Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset (91562) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2015.03.16-01.57.06:968][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset (122364) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2015.03.16-01.57.06:970][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Rough.uasset (199387) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2015.03.16-01.57.06:972][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset (206806) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2015.03.16-01.57.06:973][  0]LogPackFactory: Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset (85099) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2015.03.16-01.57.06:975][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Grime.uasset (91620) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2015.03.16-01.57.06:977][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Panels.uasset (102285) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2015.03.16-01.57.06:978][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Poured.uasset (104859) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2015.03.16-01.57.06:980][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Tiles.uasset (105831) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2015.03.16-01.57.06:982][  0]LogPackFactory: Content/StarterContent/Materials/M_Glass.uasset (48151) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Glass.uasset
+[2015.03.16-01.57.06:984][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Grass.uasset (95378) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2015.03.16-01.57.06:985][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Gravel.uasset (120447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2015.03.16-01.57.06:987][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Moss.uasset (128000) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2015.03.16-01.57.06:989][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset (79826) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2015.03.16-01.57.06:990][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset (97779) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2015.03.16-01.57.06:992][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Chrome.uasset (79618) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2015.03.16-01.57.06:994][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Copper.uasset (94475) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2015.03.16-01.57.06:995][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Gold.uasset (96084) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2015.03.16-01.57.06:997][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Rust.uasset (109365) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2015.03.16-01.57.06:999][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Steel.uasset (96230) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2015.03.16-01.57.07:000][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Basalt.uasset (121462) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2015.03.16-01.57.07:002][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset (98409) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2015.03.16-01.57.07:004][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Sandstone.uasset (113552) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2015.03.16-01.57.07:005][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Slate.uasset (110874) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2015.03.16-01.57.07:007][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset (98373) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2015.03.16-01.57.07:009][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset (140303) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2015.03.16-01.57.07:011][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset (115223) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2015.03.16-01.57.07:013][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Panel.uasset (98003) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2015.03.16-01.57.07:014][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Lake.uasset (96267) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2015.03.16-01.57.07:016][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Ocean.uasset (100717) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2015.03.16-01.57.07:018][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset (82816) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2015.03.16-01.57.07:019][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset (100628) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2015.03.16-01.57.07:021][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Oak.uasset (107121) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2015.03.16-01.57.07:022][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Pine.uasset (97740) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2015.03.16-01.57.07:024][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Walnut.uasset (93022) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2015.03.16-01.57.07:026][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Burst.uasset (43524) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2015.03.16-01.57.07:028][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset (40952) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2015.03.16-01.57.07:029][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset (62151) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2015.03.16-01.57.07:031][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset (62224) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2015.03.16-01.57.07:033][  0]LogPackFactory: Content/StarterContent/Particles/Materials/m_flare_01.uasset (48172) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2015.03.16-01.57.07:035][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset (38287) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2015.03.16-01.57.07:037][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset (41181) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2015.03.16-01.57.07:038][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_radial_ramp.uasset (41193) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2015.03.16-01.57.07:040][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset (76603) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2015.03.16-01.57.07:042][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Spark.uasset (43678) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2015.03.16-01.57.07:043][  0]LogPackFactory: Content/StarterContent/Particles/P_Ambient_Dust.uasset (43456) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2015.03.16-01.57.07:045][  0]LogPackFactory: Content/StarterContent/Particles/P_Explosion.uasset (280221) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/P_Explosion.uasset
+[2015.03.16-01.57.07:048][  0]LogPackFactory: Content/StarterContent/Particles/P_Fire.uasset (259431) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/P_Fire.uasset
+[2015.03.16-01.57.07:050][  0]LogPackFactory: Content/StarterContent/Particles/P_Smoke.uasset (65670) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/P_Smoke.uasset
+[2015.03.16-01.57.07:051][  0]LogPackFactory: Content/StarterContent/Particles/P_Sparks.uasset (171805) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/P_Sparks.uasset
+[2015.03.16-01.57.07:053][  0]LogPackFactory: Content/StarterContent/Particles/P_Steam_Lit.uasset (117332) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2015.03.16-01.57.07:055][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Bush.uasset (99988) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/Materials/M_Bush.uasset
+[2015.03.16-01.57.07:057][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Chair.uasset (90187) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2015.03.16-01.57.07:059][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Door.uasset (87249) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/Materials/M_Door.uasset
+[2015.03.16-01.57.07:061][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Frame.uasset (78682) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/Materials/M_Frame.uasset
+[2015.03.16-01.57.07:063][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Lamp.uasset (90486) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2015.03.16-01.57.07:064][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere.uasset (66766) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2015.03.16-01.57.07:066][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset (58832) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2015.03.16-01.57.07:068][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Rock.uasset (114715) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/Materials/M_Rock.uasset
+[2015.03.16-01.57.07:070][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Shelf.uasset (78255) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2015.03.16-01.57.07:072][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Statue.uasset (72790) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/Materials/M_Statue.uasset
+[2015.03.16-01.57.07:073][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_StatueGlass.uasset (56436) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2015.03.16-01.57.07:075][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_TableRound.uasset (89531) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2015.03.16-01.57.07:077][  0]LogPackFactory: Content/StarterContent/Props/MaterialSphere.uasset (174533) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/MaterialSphere.uasset
+[2015.03.16-01.57.07:078][  0]LogPackFactory: Content/StarterContent/Props/SM_Bush.uasset (152902) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_Bush.uasset
+[2015.03.16-01.57.07:080][  0]LogPackFactory: Content/StarterContent/Props/SM_Chair.uasset (213058) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_Chair.uasset
+[2015.03.16-01.57.07:082][  0]LogPackFactory: Content/StarterContent/Props/SM_CornerFrame.uasset (104587) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_CornerFrame.uasset
+[2015.03.16-01.57.07:084][  0]LogPackFactory: Content/StarterContent/Props/SM_Couch.uasset (254658) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_Couch.uasset
+[2015.03.16-01.57.07:086][  0]LogPackFactory: Content/StarterContent/Props/SM_Door.uasset (214917) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_Door.uasset
+[2015.03.16-01.57.07:088][  0]LogPackFactory: Content/StarterContent/Props/SM_DoorFrame.uasset (65546) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_DoorFrame.uasset
+[2015.03.16-01.57.07:089][  0]LogPackFactory: Content/StarterContent/Props/SM_GlassWindow.uasset (97538) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_GlassWindow.uasset
+[2015.03.16-01.57.07:091][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Ceiling.uasset (318571) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2015.03.16-01.57.07:093][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Wall.uasset (140246) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2015.03.16-01.57.07:095][  0]LogPackFactory: Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset (2396647) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2015.03.16-01.57.07:099][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame.uasset (127007) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_PillarFrame.uasset
+[2015.03.16-01.57.07:101][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame300.uasset (124350) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2015.03.16-01.57.07:102][  0]LogPackFactory: Content/StarterContent/Props/SM_Rock.uasset (175516) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_Rock.uasset
+[2015.03.16-01.57.07:104][  0]LogPackFactory: Content/StarterContent/Props/SM_Shelf.uasset (108862) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_Shelf.uasset
+[2015.03.16-01.57.07:106][  0]LogPackFactory: Content/StarterContent/Props/SM_Stairs.uasset (66807) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_Stairs.uasset
+[2015.03.16-01.57.07:107][  0]LogPackFactory: Content/StarterContent/Props/SM_Statue.uasset (537153) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_Statue.uasset
+[2015.03.16-01.57.07:110][  0]LogPackFactory: Content/StarterContent/Props/SM_TableRound.uasset (528732) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_TableRound.uasset
+[2015.03.16-01.57.07:112][  0]LogPackFactory: Content/StarterContent/Props/SM_WindowFrame.uasset (68758) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_WindowFrame.uasset
+[2015.03.16-01.57.07:113][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cone.uasset (94233) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Cone.uasset
+[2015.03.16-01.57.07:115][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cube.uasset (45498) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Cube.uasset
+[2015.03.16-01.57.07:117][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cylinder.uasset (109276) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2015.03.16-01.57.07:119][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset (211325) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2015.03.16-01.57.07:121][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe.uasset (78407) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2015.03.16-01.57.07:122][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_180.uasset (193692) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2015.03.16-01.57.07:124][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_90.uasset (120200) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2015.03.16-01.57.07:126][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Plane.uasset (43121) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Plane.uasset
+[2015.03.16-01.57.07:127][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_QuadPyramid.uasset (43744) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2015.03.16-01.57.07:129][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Sphere.uasset (264634) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2015.03.16-01.57.07:131][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Torus.uasset (558042) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Torus.uasset
+[2015.03.16-01.57.07:133][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim.uasset (51867) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Trim.uasset
+[2015.03.16-01.57.07:139][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_In.uasset (74804) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2015.03.16-01.57.07:141][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset (75706) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2015.03.16-01.57.07:144][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_TriPyramid.uasset (41629) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2015.03.16-01.57.07:146][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Tube.uasset (190123) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Tube.uasset
+[2015.03.16-01.57.07:148][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_A.uasset (45020) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2015.03.16-01.57.07:166][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_B.uasset (40642) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2015.03.16-01.57.07:168][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_WideCapsule.uasset (150007) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2015.03.16-01.57.07:170][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2.uasset (446) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/Metal_Tile_2.uasset
+[2015.03.16-01.57.07:171][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2_N.uasset (450) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/Metal_Tile_2_N.uasset
+[2015.03.16-01.57.07:173][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048.uasset (446) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/Sky54a2048.uasset
+[2015.03.16-01.57.07:178][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048LDR.uasset (449) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/Sky54a2048LDR.uasset
+[2015.03.16-01.57.07:180][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01.uasset (450) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_ArmorMetal01.uasset
+[2015.03.16-01.57.07:181][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01_N.uasset (452) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset
+[2015.03.16-01.57.07:182][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_D.uasset (446) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Bark02_D.uasset
+[2015.03.16-01.57.07:184][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_N.uasset (446) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Bark02_N.uasset
+[2015.03.16-01.57.07:185][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset (455) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset
+[2015.03.16-01.57.07:187][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset (455) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset
+[2015.03.16-01.57.07:188][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset (7649619) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2015.03.16-01.57.07:198][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset (8326301) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2015.03.16-01.57.07:209][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset (7553391) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2015.03.16-01.57.07:218][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset (6035708) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2015.03.16-01.57.07:227][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset (9201530) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2015.03.16-01.57.07:239][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset (7865847) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2015.03.16-01.57.07:249][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset (11424774) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2015.03.16-01.57.07:278][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset (7794699) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2015.03.16-01.57.07:288][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset (13386492) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2015.03.16-01.57.07:305][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset (6679434) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2015.03.16-01.57.07:314][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset (7446677) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2015.03.16-01.57.07:323][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset (6802269) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2015.03.16-01.57.07:332][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset (8992435) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2015.03.16-01.57.07:344][  0]LogPackFactory: Content/StarterContent/Textures/T_Burst_M.uasset (150025) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Burst_M.uasset
+[2015.03.16-01.57.07:346][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_D.uasset (552540) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Bush_D.uasset
+[2015.03.16-01.57.07:348][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_N.uasset (396574) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Bush_N.uasset
+[2015.03.16-01.57.07:350][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset (277243) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2015.03.16-01.57.07:351][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset (228293) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2015.03.16-01.57.07:354][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_M.uasset (576769) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Chair_M.uasset
+[2015.03.16-01.57.07:356][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_N.uasset (1937145) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Chair_N.uasset
+[2015.03.16-01.57.07:359][  0]LogPackFactory: Content/StarterContent/Textures/T_Checker_Noise_M.uasset (158406) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2015.03.16-01.57.07:361][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_M.uasset (432) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Cliff_M.uasset
+[2015.03.16-01.57.07:363][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_N.uasset (432) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Cliff_N.uasset
+[2015.03.16-01.57.07:364][  0]LogPackFactory: Content/StarterContent/Textures/T_Cobble_01_H.uasset (449) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Cobble_01_H.uasset
+[2015.03.16-01.57.07:366][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleDark_01_D.uasset (453) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset
+[2015.03.16-01.57.07:367][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_D.uasset (454) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset
+[2015.03.16-01.57.07:368][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_N.uasset (454) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset
+[2015.03.16-01.57.07:370][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_R.uasset (454) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset
+[2015.03.16-01.57.07:371][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset (455) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset
+[2015.03.16-01.57.07:373][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset (11812314) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2015.03.16-01.57.07:387][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset (1313598) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2015.03.16-01.57.07:390][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset (11858728) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2015.03.16-01.57.07:404][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset (2936250) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2015.03.16-01.57.07:408][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset (2700400) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2015.03.16-01.57.07:413][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset (6603341) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2015.03.16-01.57.07:422][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset (5739577) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2015.03.16-01.57.07:430][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset (8846507) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2015.03.16-01.57.07:441][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_D.uasset (450) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete01_D.uasset
+[2015.03.16-01.57.07:443][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_N.uasset (450) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete01_N.uasset
+[2015.03.16-01.57.07:444][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_D.uasset (451) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_01_D.uasset
+[2015.03.16-01.57.07:446][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_N.uasset (451) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_01_N.uasset
+[2015.03.16-01.57.07:447][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_D.uasset (448) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_D.uasset
+[2015.03.16-01.57.07:448][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01.uasset (454) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Floor01.uasset
+[2015.03.16-01.57.07:450][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset (456) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset
+[2015.03.16-01.57.07:451][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Grime_D.uasset (10691506) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2015.03.16-01.57.07:464][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_N.uasset (448) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_N.uasset
+[2015.03.16-01.57.07:466][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_D.uasset (8513286) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2015.03.16-01.57.07:477][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_N.uasset (6558914) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2015.03.16-01.57.07:485][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_D.uasset (11600993) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2015.03.16-01.57.07:500][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_N.uasset (7452814) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2015.03.16-01.57.07:510][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset (4956380) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2015.03.16-01.57.07:517][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset (5759659) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2015.03.16-01.57.07:525][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset (6611650) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2015.03.16-01.57.07:534][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset (4809) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2015.03.16-01.57.07:536][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07.uasset (453) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Wall07.uasset
+[2015.03.16-01.57.07:537][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset (455) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset
+[2015.03.16-01.57.07:539][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_D.uasset (453) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset
+[2015.03.16-01.57.07:540][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_N.uasset (453) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset
+[2015.03.16-01.57.07:542][  0]LogPackFactory: Content/StarterContent/Textures/T_DesertCrystal01_N.uasset (455) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset
+[2015.03.16-01.57.07:543][  0]LogPackFactory: Content/StarterContent/Textures/T_Detail_Rocky_N.uasset (2850093) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2015.03.16-01.57.07:548][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_D.uasset (444) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Dirt_D.uasset
+[2015.03.16-01.57.07:549][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_N.uasset (444) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Dirt_N.uasset
+[2015.03.16-01.57.07:551][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_M.uasset (554190) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Door_M.uasset
+[2015.03.16-01.57.07:553][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_N.uasset (1074859) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Door_N.uasset
+[2015.03.16-01.57.07:556][  0]LogPackFactory: Content/StarterContent/Textures/T_Dust_Particle_D.uasset (32071) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2015.03.16-01.57.07:557][  0]LogPackFactory: Content/StarterContent/Textures/T_Explosion_SubUV.uasset (3004336) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2015.03.16-01.57.07:562][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_SubUV.uasset (525012) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2015.03.16-01.57.07:564][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_Tiled_D.uasset (553370) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2015.03.16-01.57.07:566][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_M.uasset (536068) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Frame_M.uasset
+[2015.03.16-01.57.07:568][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_N.uasset (1249187) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Frame_N.uasset
+[2015.03.16-01.57.07:571][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset (461) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset
+[2015.03.16-01.57.07:572][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset (463) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset
+[2015.03.16-01.57.07:574][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset (463) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset
+[2015.03.16-01.57.07:575][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset (463) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset
+[2015.03.16-01.57.07:576][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset (462) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset
+[2015.03.16-01.57.07:578][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset (464) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset
+[2015.03.16-01.57.07:579][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset (462) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset
+[2015.03.16-01.57.07:581][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset (464) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset
+[2015.03.16-01.57.07:582][  0]LogPackFactory: Content/StarterContent/Textures/T_Gradinet_01.uasset (5447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2015.03.16-01.57.07:584][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_D.uasset (425) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Gravel_D.uasset
+[2015.03.16-01.57.07:585][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_N.uasset (425) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Gravel_N.uasset
+[2015.03.16-01.57.07:587][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_D.uasset (449) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ground_01_D.uasset
+[2015.03.16-01.57.07:588][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_N.uasset (449) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ground_01_N.uasset
+[2015.03.16-01.57.07:590][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_D.uasset (449) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ground_02_D.uasset
+[2015.03.16-01.57.07:591][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_N.uasset (449) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ground_02_N.uasset
+[2015.03.16-01.57.07:593][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Detail_N.uasset (453) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ground_Detail_N.uasset
+[2015.03.16-01.57.07:594][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_D.uasset (451) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset
+[2015.03.16-01.57.07:595][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_N.uasset (451) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset
+[2015.03.16-01.57.07:597][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_D.uasset (12014827) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2015.03.16-01.57.07:611][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_N.uasset (11617917) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2015.03.16-01.57.07:625][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_D.uasset (10627659) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2015.03.16-01.57.07:638][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_N.uasset (7408581) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2015.03.16-01.57.07:648][  0]LogPackFactory: Content/StarterContent/Textures/T_ground_Moss_D.uasset (13034653) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2015.03.16-01.57.07:664][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Moss_N.uasset (8389816) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2015.03.16-01.57.07:674][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Noise_N.uasset (431) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Ground_Noise_N.uasset
+[2015.03.16-01.57.07:676][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_M.uasset (781809) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Lamp_M.uasset
+[2015.03.16-01.57.07:678][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_N.uasset (2076923) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Lamp_N.uasset
+[2015.03.16-01.57.07:682][  0]LogPackFactory: Content/StarterContent/Textures/T_MacroVariation.uasset (10882792) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_MacroVariation.uasset
+[2015.03.16-01.57.07:694][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset (9680629) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2015.03.16-01.57.07:706][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Copper_D.uasset (8854788) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2015.03.16-01.57.07:718][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset (460) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset
+[2015.03.16-01.57.07:719][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset (460) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset
+[2015.03.16-01.57.07:721][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_D.uasset (8838906) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2015.03.16-01.57.07:732][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_N.uasset (2813572) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2015.03.16-01.57.07:737][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_D.uasset (453) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset
+[2015.03.16-01.57.07:738][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_N.uasset (453) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset
+[2015.03.16-01.57.07:739][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_D.uasset (453) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset
+[2015.03.16-01.57.07:741][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_N.uasset (453) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset
+[2015.03.16-01.57.07:742][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset (456) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset
+[2015.03.16-01.57.07:744][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset (456) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset
+[2015.03.16-01.57.07:745][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset (453) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset
+[2015.03.16-01.57.07:746][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset (453) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset
+[2015.03.16-01.57.07:748][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_D.uasset (9329320) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2015.03.16-01.57.07:759][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_N.uasset (7504761) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2015.03.16-01.57.07:770][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset (453) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset
+[2015.03.16-01.57.07:771][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset (453) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset
+[2015.03.16-01.57.07:773][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_D.uasset (3581726) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2015.03.16-01.57.07:778][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_N.uasset (4922590) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2015.03.16-01.57.07:785][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset (456) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset
+[2015.03.16-01.57.07:787][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset (456) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset
+[2015.03.16-01.57.07:788][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01.uasset (452) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_PaintedMetal01.uasset
+[2015.03.16-01.57.07:789][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01_N.uasset (454) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset
+[2015.03.16-01.57.07:791][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_D.uasset (451) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_PatchyGrass_D.uasset
+[2015.03.16-01.57.07:792][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_N.uasset (451) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_PatchyGrass_N.uasset
+[2015.03.16-01.57.07:794][  0]LogPackFactory: Content/StarterContent/Textures/T_Perlin_Noise_M.uasset (7869402) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2015.03.16-01.57.07:804][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_D.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_01_D.uasset
+[2015.03.16-01.57.07:805][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_N.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_01_N.uasset
+[2015.03.16-01.57.07:807][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_D.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_03_D.uasset
+[2015.03.16-01.57.07:808][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_N.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_03_N.uasset
+[2015.03.16-01.57.07:809][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_D.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_05_D.uasset
+[2015.03.16-01.57.07:811][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_N.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_05_N.uasset
+[2015.03.16-01.57.07:812][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_D.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_06_D.uasset
+[2015.03.16-01.57.07:814][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_N.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_06_N.uasset
+[2015.03.16-01.57.07:815][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_D.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_07_D.uasset
+[2015.03.16-01.57.07:817][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_N.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_07_N.uasset
+[2015.03.16-01.57.07:818][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07b_D.uasset (448) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_07b_D.uasset
+[2015.03.16-01.57.07:819][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_D.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_08_D.uasset
+[2015.03.16-01.57.07:821][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_N.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_08_N.uasset
+[2015.03.16-01.57.07:822][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_09_D.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_09_D.uasset
+[2015.03.16-01.57.07:823][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_D.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_10_D.uasset
+[2015.03.16-01.57.07:825][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_N.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_10_N.uasset
+[2015.03.16-01.57.07:826][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_11b_D.uasset (448) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_11b_D.uasset
+[2015.03.16-01.57.07:828][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_D.uasset (9359943) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2015.03.16-01.57.07:840][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_N.uasset (7847129) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2015.03.16-01.57.07:850][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset (454) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset
+[2015.03.16-01.57.07:852][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset (454) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset
+[2015.03.16-01.57.07:853][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset (454) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset
+[2015.03.16-01.57.07:854][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset (5327483) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2015.03.16-01.57.07:862][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset (9234423) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2015.03.16-01.57.07:873][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset (8399811) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2015.03.16-01.57.07:884][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_D.uasset (12333988) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2015.03.16-01.57.07:899][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_N.uasset (9649859) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2015.03.16-01.57.07:912][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset (8829490) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2015.03.16-01.57.07:923][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_M.uasset (2706973) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2015.03.16-01.57.07:927][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_N.uasset (5375053) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2015.03.16-01.57.07:935][  0]LogPackFactory: Content/StarterContent/Textures/T_Rocky_01_N.uasset (448) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Rocky_01_N.uasset
+[2015.03.16-01.57.07:936][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_M.uasset (651298) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Shelf_M.uasset
+[2015.03.16-01.57.07:938][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_N.uasset (1639501) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Shelf_N.uasset
+[2015.03.16-01.57.07:942][  0]LogPackFactory: Content/StarterContent/Textures/T_Single_Tile_N.uasset (6402) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2015.03.16-01.57.07:943][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Clouds_M.uasset (450) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset
+[2015.03.16-01.57.07:945][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Stars.uasset (447) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Sky_Stars.uasset
+[2015.03.16-01.57.07:946][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_SubUV.uasset (2630744) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2015.03.16-01.57.07:950][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset (91431) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2015.03.16-01.57.07:952][  0]LogPackFactory: Content/StarterContent/Textures/T_Spark_Core.uasset (162316) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Spark_Core.uasset
+[2015.03.16-01.57.07:953][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_M.uasset (546786) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Statue_M.uasset
+[2015.03.16-01.57.07:955][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_N.uasset (515360) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Statue_N.uasset
+[2015.03.16-01.57.07:957][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_D.uasset (451) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Stone_Brick_D.uasset
+[2015.03.16-01.57.07:959][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_N.uasset (451) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Stone_Brick_N.uasset
+[2015.03.16-01.57.07:960][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_M.uasset (870486) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_TableRound_M.uasset
+[2015.03.16-01.57.07:962][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_N.uasset (1549086) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_TableRound_N.uasset
+[2015.03.16-01.57.07:965][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_M.uasset (107174) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2015.03.16-01.57.07:967][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_N.uasset (202333) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2015.03.16-01.57.07:969][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset (793459) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2015.03.16-01.57.07:971][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset (493875) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2015.03.16-01.57.07:973][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_M.uasset (979689) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2015.03.16-01.57.07:975][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_N.uasset (1860674) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2015.03.16-01.57.07:979][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset (461) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset
+[2015.03.16-01.57.07:981][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset (461) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset
+[2015.03.16-01.57.07:982][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02.uasset (452) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_UNV_Concrete02.uasset
+[2015.03.16-01.57.07:984][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset (454) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset
+[2015.03.16-01.57.07:985][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_M.uasset (1696467) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Water_M.uasset
+[2015.03.16-01.57.07:988][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_N.uasset (2087420) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Water_N.uasset
+[2015.03.16-01.57.07:992][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset (459) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset
+[2015.03.16-01.57.07:993][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset (459) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset
+[2015.03.16-01.57.07:995][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_a_d.uasset (446) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Wood_a_d.uasset
+[2015.03.16-01.57.07:996][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_N.uasset (446) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Wood_A_N.uasset
+[2015.03.16-01.57.07:998][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_S.uasset (446) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Wood_A_S.uasset
+[2015.03.16-01.57.07:999][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset (4584206) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2015.03.16-01.57.08:005][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset (3940729) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2015.03.16-01.57.08:011][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset (2858538) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2015.03.16-01.57.08:016][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_D.uasset (6707252) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2015.03.16-01.57.08:025][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_N.uasset (6245295) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2015.03.16-01.57.08:034][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_D.uasset (9690724) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2015.03.16-01.57.08:046][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_N.uasset (3467174) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2015.03.16-01.57.08:051][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_D.uasset (6509713) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2015.03.16-01.57.08:060][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_N.uasset (3836013) -> ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2015.03.16-01.57.08:065][  0]LogPackFactory: Finished extracting 750 files (including 0 errors).
+[2015.03.16-01.57.08:527][  0]LogRenderer:Warning: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.03.16-01.57.09:067][  0]LogSavePackage: Save=329.986542ms
+[2015.03.16-01.57.09:067][  0]LogSavePackage: Moving '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Floor_400x400CB4B79B14CE0CEB706C70DB33C8D10BA.tmp' to '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.03.16-01.57.09:073][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.03.16-01.57.09:075][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.16-01.57.09:076][  0]LightingResults: New page: Lighting Build
+[2015.03.16-01.57.09:102][  0]MapCheck: New page: Map Check
+[2015.03.16-01.57.09:102][  0]LightingResults: New page: Lighting Build
+[2015.03.16-01.57.09:112][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003F2A520
+[2015.03.16-01.57.10:353][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.16-01.57.10:354][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.16-01.57.10:355][  0]Cmd: MAP CHECKDEP
+[2015.03.16-01.57.10:355][  0]MapCheck: New page: Minimal_Default - Mar 15, 2015, 1:57:10 PM
+[2015.03.16-01.57.10:641][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 286.068ms to complete.
+[2015.03.16-01.57.10:641][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.567
+[2015.03.16-01.57.10:925][  0]LogCollectionManager: Loaded 0 collections in 0.010609 seconds
+[2015.03.16-01.57.10:962][  0]LogContentBrowser: Native class hierarchy populated in 0.0364 seconds. Added 1696 classes and 261 folders.
+[2015.03.16-01.57.11:131][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0074 seconds. Added 1 classes and 2 folders.
+[2015.03.16-01.57.11:255][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.16-01.57.11:257][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.16-01.57.11:265][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.16-01.57.11:303][  0]LogLoad: Full Startup: 37.16 seconds (BP compile: 0.13 seconds)
+[2015.03.16-01.57.19:315][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2015.03.16-01.57.21:253][  9]LogAssetRegistry: Asset discovery search completed in 30.5724 seconds
+[2015.03.16-01.57.33:538][834]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.16-01.57.33:538][834]PIE: New page: PIE session: Minimal_Default (Mar 15, 2015, 1:57:33 PM)
+[2015.03.16-01.57.33:546][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007589s)
+[2015.03.16-01.57.33:547][834]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2015.03.16-01.57.33:548][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008852s)
+[2015.03.16-01.57.33:597][834]LogWorld: Game class is 'GameMode'
+[2015.03.16-01.57.33:601][834]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.16-01.57.33:609][834]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.03.15-19.57.33
+[2015.03.16-01.57.33:610][834]LogWorld: Bringing up level for play took: 0.007921
+[2015.03.16-01.57.33:614][834]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.547
+[2015.03.16-01.57.58:108][966]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CFDDA80
+[2015.03.16-01.57.59:058][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2015.03.16-01.58.02:823][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2015.03.16-01.58.04:929][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2015.03.16-01.58.07:431][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2015.03.16-01.58.10:346][684]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.16-01.58.10:346][684]PIE: New page: PIE session: Minimal_Default (Mar 15, 2015, 1:58:10 PM)
+[2015.03.16-01.58.10:357][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006959s)
+[2015.03.16-01.58.10:358][684]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2015.03.16-01.58.10:358][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008212s)
+[2015.03.16-01.58.10:387][684]LogWorld: Game class is 'GameMode'
+[2015.03.16-01.58.10:390][684]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.16-01.58.10:399][684]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.03.15-19.58.10
+[2015.03.16-01.58.10:400][684]LogWorld: Bringing up level for play took: 0.008746
+[2015.03.16-01.58.10:404][684]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.663
+[2015.03.16-01.59.02:143][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DA3F9C0
+[2015.03.16-01.59.06:365][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2015.03.16-01.59.06:451][ 65]Cmd: DELETE
+[2015.03.16-01.59.06:451][ 65]Cmd: ACTOR DELETE
+[2015.03.16-01.59.06:453][ 65]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.16-01.59.06:470][ 65]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2015.03.16-01.59.07:329][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2015.03.16-01.59.07:464][130]Cmd: DELETE
+[2015.03.16-01.59.07:464][130]Cmd: ACTOR DELETE
+[2015.03.16-01.59.07:465][130]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.16-01.59.07:481][130]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.03.16-01.59.08:044][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2015.03.16-01.59.08:401][193]Cmd: DELETE
+[2015.03.16-01.59.08:401][193]Cmd: ACTOR DELETE
+[2015.03.16-01.59.08:402][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.16-01.59.08:419][193]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.03.16-01.59.08:937][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2015.03.16-01.59.09:034][234]Cmd: DELETE
+[2015.03.16-01.59.09:034][234]Cmd: ACTOR DELETE
+[2015.03.16-01.59.09:035][234]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.16-01.59.09:051][234]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.03.16-01.59.09:410][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.16-01.59.09:493][261]Cmd: DELETE
+[2015.03.16-01.59.09:493][261]Cmd: ACTOR DELETE
+[2015.03.16-01.59.09:494][261]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.16-01.59.09:509][261]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2015.03.16-01.59.09:848][286]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.16-01.59.09:922][288]Cmd: DELETE
+[2015.03.16-01.59.09:922][288]Cmd: ACTOR DELETE
+[2015.03.16-01.59.09:923][288]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.16-01.59.09:942][288]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.03.16-01.59.10:865][356]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.03.16-01.59.10:979][360]Cmd: DELETE
+[2015.03.16-01.59.10:979][360]Cmd: ACTOR DELETE
+[2015.03.16-01.59.10:981][360]LogEditorActor: Deleted Actor: PlayerStart
+[2015.03.16-01.59.10:997][360]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2015.03.16-01.59.11:789][419]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture10)
+[2015.03.16-01.59.12:998][504]Cmd: DELETE
+[2015.03.16-01.59.12:998][504]Cmd: ACTOR DELETE
+[2015.03.16-01.59.12:999][504]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2015.03.16-01.59.13:017][504]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.03.16-01.59.15:695][712]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2015.03.16-01.59.21:195][136]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2015.03.16-01.59.22:323][222]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Starter_Background_Cue)
+[2015.03.16-01.59.25:690][482]Cmd: DELETE
+[2015.03.16-01.59.25:690][482]Cmd: ACTOR DELETE
+[2015.03.16-01.59.25:691][482]LogEditorActor: Deleted Actor: AmbientSound
+[2015.03.16-01.59.25:707][482]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.03.16-01.59.29:346][756]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.03.16-01.59.39:338][513]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.03.16-01.59.43:754][793]LogActorFactory: Actor Factory created Floor_400x400
+[2015.03.16-01.59.46:904][ 38]LogActorFactory: Actor Factory created Floor_400x400
+[2015.03.16-02.01.06:140][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-02.01.06:786][863]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2015.03.16-02.02.16:036][905]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.16-02.02.42:075][574]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2015.03.16-02.02.48:503][ 17]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2015.03.16-02.03.29:111][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-02.04.45:703][462]LogActorFactory: Actor Factory created Wall_400x300
+[2015.03.16-02.04.48:486][645]LogActorFactory: Actor Factory created Wall_400x300
+[2015.03.16-02.04.49:242][695]Cmd: DELETE
+[2015.03.16-02.04.49:242][695]Cmd: ACTOR DELETE
+[2015.03.16-02.04.49:243][695]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.16-02.04.49:259][695]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.03.16-02.04.52:435][908]LogActorFactory: Actor Factory created Wall_400x300
+[2015.03.16-02.04.53:724][998]LogActorFactory: Actor Factory created Wall_400x300
+[2015.03.16-02.05.17:160][626]Cmd: EDIT COPY
+[2015.03.16-02.05.17:797][672]Cmd: EDIT PASTE
+[2015.03.16-02.05.29:014][424]Cmd: DELETE
+[2015.03.16-02.05.29:014][424]Cmd: ACTOR DELETE
+[2015.03.16-02.05.29:015][424]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.16-02.05.29:031][424]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2015.03.16-02.05.46:929][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2015.03.16-02.05.48:877][857]Cmd: DELETE
+[2015.03.16-02.05.48:877][857]Cmd: ACTOR DELETE
+[2015.03.16-02.05.48:878][857]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.16-02.05.48:894][857]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.03.16-02.05.55:211][286]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2015.03.16-02.05.58:118][421]LogActorFactory: Actor Factory created Wall_Window_400x300
+[2015.03.16-02.06.01:203][619]LogActorFactory: Actor Factory created Wall_Window_400x300
+[2015.03.16-02.06.20:516][949]Cmd: EDIT COPY
+[2015.03.16-02.06.21:054][987]Cmd: EDIT PASTE
+[2015.03.16-02.06.27:888][462]Cmd: EDIT PASTE
+[2015.03.16-02.06.40:842][344]Cmd: EDIT PASTE
+[2015.03.16-02.06.45:081][649]Cmd: EDIT PASTE
+[2015.03.16-02.07.05:579][ 90]Cmd: EDIT PASTE
+[2015.03.16-02.07.16:866][855]Cmd: EDIT PASTE
+[2015.03.16-02.07.59:637][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-02.08.20:938][260]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.03.16-02.08.21:944][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x304)
+[2015.03.16-02.08.26:873][644]Cmd: EDIT COPY
+[2015.03.16-02.08.27:182][665]Cmd: EDIT PASTE
+[2015.03.16-02.08.32:919][ 33]LogSavePackage: Save=97.032478ms
+[2015.03.16-02.08.32:919][ 33]LogSavePackage: Moving '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Minimal_Default_Auto1DBDEDB794D611A16A9E9EB9182874DB9.tmp' to '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2015.03.16-02.08.32:943][ 33]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.214
+[2015.03.16-02.08.32:943][ 33]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.214
+[2015.03.16-02.09.14:923][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x303)
+[2015.03.16-02.09.18:302][230]Cmd: EDIT COPY
+[2015.03.16-02.09.18:630][246]Cmd: EDIT PASTE
+[2015.03.16-02.11.01:418][398]Cmd: EDIT COPY
+[2015.03.16-02.11.01:740][418]Cmd: EDIT PASTE
+[2015.03.16-02.11.14:523][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-02.11.31:901][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x315)
+[2015.03.16-02.12.01:142][412]Cmd: TRANSACTION UNDO
+[2015.03.16-02.12.01:142][412]LogEditorTransaction: Undo Scale Actors
+[2015.03.16-02.12.02:065][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-02.12.04:303][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-02.12.05:379][674]Cmd: TRANSACTION UNDO
+[2015.03.16-02.12.05:379][674]LogEditorTransaction: Undo Scale Actors
+[2015.03.16-02.12.25:068][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x306)
+[2015.03.16-02.12.38:179][788]Cmd: EDIT COPY
+[2015.03.16-02.12.40:348][928]Cmd: EDIT PASTE
+[2015.03.16-02.13.06:182][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-02.13.19:021][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x316)
+[2015.03.16-02.13.22:237][633]Cmd: EDIT COPY
+[2015.03.16-02.13.23:451][712]Cmd: EDIT PASTE
+[2015.03.16-02.13.39:669][781]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.16-02.13.41:511][896]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.16-02.13.43:657][ 22]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.16-02.13.45:864][161]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.16-02.13.56:780][949]Cmd: TRANSACTION UNDO
+[2015.03.16-02.13.56:780][949]LogEditorTransaction: Undo Move Actors
+[2015.03.16-02.14.03:995][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x302)
+[2015.03.16-02.15.13:708][290]LogTexture:Display: Building textures: T_Brick_Cut_Stone_D (AutoDXT)
+[2015.03.16-02.15.18:208][290]LogTexture:Display: Building textures: T_Brick_Cut_Stone_N (BC5)
+[2015.03.16-02.15.18:891][290]LogMaterial: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2015.03.16-02.15.41:166][395]LogTexture:Display: Building textures: T_Brick_Clay_Old_D (AutoDXT)
+[2015.03.16-02.15.45:667][395]LogTexture:Display: Building textures: T_Brick_Clay_Old_N (BC5)
+[2015.03.16-02.15.46:359][395]LogMaterial: Missing cached shader map for material M_Brick_Clay_Old, compiling. 
+[2015.03.16-02.16.19:518][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-02.16.21:108][334]Cmd: EDIT COPY
+[2015.03.16-02.16.27:453][736]Cmd: EDIT PASTE
+[2015.03.16-02.16.48:257][  2]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x400)
+[2015.03.16-02.16.
