@@ -1,0 +1,774 @@
+﻿Log file open, 03/15/15 23:32:23
+LogInit:Display: Running engine for game: MyHouse
+LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.16-05.32.23:740][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2015.03.16-05.32.23:843][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.16-05.32.23:868][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.16-05.32.23:880][  0]LogInit: Object subsystem initialized
+[2015.03.16-05.32.23:883][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.16-05.32.23:883][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.16-05.32.23:883][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.16-05.32.23:883][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.16-05.32.23:883][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.16-05.32.23:883][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.16-05.32.23:883][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.16-05.32.23:883][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.16-05.32.23:916][  0]LogInit: Computer: NINJABOT
+[2015.03.16-05.32.23:916][  0]LogInit: User: Brad
+[2015.03.16-05.32.23:916][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.03.16-05.32.23:916][  0]LogInit: High frequency timer resolution =2.746503 MHz
+[2015.03.16-05.32.23:916][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2015.03.16-05.32.23:917][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.16-05.32.23:917][  0]LogMemory: Process Physical Memory: 47.85 MB used, 47.85 MB peak
+[2015.03.16-05.32.23:917][  0]LogMemory: Process Virtual Memory: 26.39 MB used, 26.39 MB peak
+[2015.03.16-05.32.23:917][  0]LogMemory: Physical Memory: 1867.46 MB used, 8189.55 MB total
+[2015.03.16-05.32.23:917][  0]LogMemory: Virtual Memory: 276.59 MB used, 8388608.00 MB total
+[2015.03.16-05.32.23:994][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 460 SE (Feature Level 11_0)
+[2015.03.16-05.32.23:994][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2015.03.16-05.32.23:994][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.16-05.32.24:001][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2015.03.16-05.32.24:013][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.16-05.32.24:099][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.16-05.32.24:287][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.16-05.32.27:598][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.16-05.32.28:461][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.16-05.32.28:574][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.16-05.32.28:651][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/Brad/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.16-05.32.28:652][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Brad/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.16-05.32.28:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.16-05.32.28:652][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.16-05.32.28:812][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.16-05.32.28:824][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.16-05.32.29:299][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.16-05.32.29:299][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.16-05.32.29:860][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.16-05.32.30:017][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.16-05.32.31:295][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.16-05.32.31:668][  0]SourceControl: Info Source control is disabled
+[2015.03.16-05.32.31:668][  0]SourceControl: Info Source control is disabled
+[2015.03.16-05.32.31:668][  0]SourceControl: Info Source control is disabled
+[2015.03.16-05.32.31:668][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.16-05.32.31:668][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.16-05.32.31:688][  0]SourceControl: Info Source control is disabled
+[2015.03.16-05.32.32:063][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.16-05.32.32:063][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.03.16-05.32.32:193][  0]LogEngine: Initializing Engine...
+[2015.03.16-05.32.34:465][  0]LogInit: XAudio2 using 'ASUS VH236H-1 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.16-05.32.34:499][  0]LogInit: FAudioDevice initialized.
+[2015.03.16-05.32.34:575][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.16-05.32.34:608][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Brad/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.16-05.32.34:617][  0]LogInit: Texture streaming: Enabled
+[2015.03.16-05.32.34:771][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.16-05.32.34:771][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.16-05.32.34:771][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.16-05.32.34:771][  0]LogAnalytics: SetUserId 2b7ccab54f4c668154698e96f7caff12|c4387afa28fc4879b208a4e43c750091|6d12690a-15d1-4ebd-a55d-ed64fc5aefd2
+[2015.03.16-05.32.34:771][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.16-05.32.34:807][  0]LogInit: Transaction tracking system initialized
+[2015.03.16-05.32.35:152][  0]BlueprintLog: New page: Editor Load
+[2015.03.16-05.32.35:210][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2015.03.16-05.32.35:211][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.16-05.32.36:145][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.16-05.32.36:695][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.16-05.32.37:228][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.16-05.32.37:229][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.16-05.32.37:237][  0]LogConsoleResponse:Display: 
+[2015.03.16-05.32.37:506][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.16-05.32.37:823][  0]SourceControl: Info Source control is disabled
+[2015.03.16-05.32.37:824][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.16-05.32.37:825][  0]LightingResults: New page: Lighting Build
+[2015.03.16-05.32.37:853][  0]MapCheck: New page: Map Check
+[2015.03.16-05.32.37:853][  0]LightingResults: New page: Lighting Build
+[2015.03.16-05.32.37:863][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013376980
+[2015.03.16-05.32.39:213][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.16-05.32.39:213][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.16-05.32.39:214][  0]Cmd: MAP CHECKDEP
+[2015.03.16-05.32.39:214][  0]MapCheck: New page: Minimal_Default - Mar 15, 2015, 5:32:39 PM
+[2015.03.16-05.32.39:386][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 171.2ms to complete.
+[2015.03.16-05.32.39:386][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.562
+[2015.03.16-05.32.39:558][  0]LogCollectionManager: Loaded 0 collections in 0.003146 seconds
+[2015.03.16-05.32.39:582][  0]LogContentBrowser: Native class hierarchy populated in 0.0244 seconds. Added 1696 classes and 261 folders.
+[2015.03.16-05.32.39:666][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0058 seconds. Added 1 classes and 2 folders.
+[2015.03.16-05.32.39:771][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.16-05.32.39:773][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.16-05.32.39:781][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.16-05.32.39:820][  0]LogLoad: Full Startup: 18.74 seconds (BP compile: 0.13 seconds)
+[2015.03.16-05.32.39:854][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.03.16-05.32.40:059][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.03.16-05.32.40:224][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:7).
+[2015.03.16-05.32.40:637][  7]LogAssetRegistry: Asset discovery search completed in 5.4385 seconds
+[2015.03.16-05.32.58:676][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs3)
+[2015.03.16-05.33.10:803][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.33.15:674][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.33.20:842][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.33.24:526][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.33.26:565][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.33.30:286][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.33.36:724][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.35.29:921][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x302)
+[2015.03.16-05.35.30:922][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.35.31:421][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.35.45:966][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.35.49:719][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.35.51:375][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.35.53:782][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.35.57:789][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.35.59:338][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.36.00:495][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.36.10:215][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.36.11:595][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.36.12:277][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.36.12:991][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.36.15:869][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.36.19:392][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.36.22:853][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.36.26:025][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.36.29:028][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.36.32:894][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.36.42:462][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.36.48:321][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.36.55:148][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.37.06:313][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.37.11:023][920]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.16-05.37.11:023][920]PIE: New page: PIE session: Minimal_Default (Mar 15, 2015, 5:37:11 PM)
+[2015.03.16-05.37.11:036][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011640s)
+[2015.03.16-05.37.11:037][920]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2015.03.16-05.37.11:037][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013000s)
+[2015.03.16-05.37.11:092][920]LogWorld: Game class is 'GameMode'
+[2015.03.16-05.37.11:096][920]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.16-05.37.11:114][920]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.03.15-23.37.11
+[2015.03.16-05.37.11:116][920]LogWorld: Bringing up level for play took: 0.019313
+[2015.03.16-05.37.11:120][920]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.035
+[2015.03.16-05.37.26:690][380]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003DC84A0
+[2015.03.16-05.38.30:550][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.03.16-05.38.32:059][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.39.00:258][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs2)
+[2015.03.16-05.39.13:412][721]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.16-05.39.13:412][721]PIE: New page: PIE session: Minimal_Default (Mar 15, 2015, 5:39:13 PM)
+[2015.03.16-05.39.13:423][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010433s)
+[2015.03.16-05.39.13:424][721]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2015.03.16-05.39.13:425][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011699s)
+[2015.03.16-05.39.13:456][721]LogWorld: Game class is 'GameMode'
+[2015.03.16-05.39.13:460][721]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.16-05.39.13:481][721]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.03.15-23.39.13
+[2015.03.16-05.39.13:483][721]LogWorld: Bringing up level for play took: 0.021793
+[2015.03.16-05.39.13:487][721]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.402
+[2015.03.16-05.39.24:458][731]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000365E3E0
+[2015.03.16-05.43.07:911][989]LogSavePackage: Save=904.170532ms
+[2015.03.16-05.43.07:911][989]LogSavePackage: Moving '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Minimal_Default_Auto16E30CC094308B39B0E3EBBA2713727E0.tmp' to '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2015.03.16-05.43.07:926][989]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.060
+[2015.03.16-05.43.07:926][989]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.060
+[2015.03.16-05.50.22:941][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-05.50.25:194][664]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.03.16-05.50.28:342][822]LogRenderer:Warning: Reallocating scene render targets to support 1432x928 (Frame:28344).
+[2015.03.16-05.51.33:647][131]LogSavePackage: Save=590.172302ms
+[2015.03.16-05.51.33:647][131]LogSavePackage: Moving '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Minimal_Default74A9EDA240AD6134CD2A73A466086E58.tmp' to '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.03.16-05.51.33:719][131]LogFileHelpers: Saving map 'Minimal_Default' took 0.932
+[2015.03.16-05.51.33:753][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Stairs" FILE="../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_Stairs.uasset" SILENT=true
+[2015.03.16-05.51.34:147][131]LogSavePackage: Save=385.588135ms
+[2015.03.16-05.51.34:147][131]LogSavePackage: Moving '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/SM_StairsDBF9BBC0435897018E45FF9320CA1CE7.tmp' to '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Props/SM_Stairs.uasset'
+[2015.03.16-05.51.38:170][454]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.16-05.51.38:171][454]PIE: New page: PIE session: Minimal_Default (Mar 15, 2015, 5:51:38 PM)
+[2015.03.16-05.51.38:181][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009733s)
+[2015.03.16-05.51.38:182][454]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2015.03.16-05.51.38:182][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010885s)
+[2015.03.16-05.51.38:213][454]LogWorld: Game class is 'GameMode'
+[2015.03.16-05.51.38:216][454]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.16-05.51.38:235][454]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.03.15-23.51.38
+[2015.03.16-05.51.38:237][454]LogWorld: Bringing up level for play took: 0.019452
+[2015.03.16-05.51.38:241][454]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.844
+[2015.03.16-05.52.13:421][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000131AC2C0
+[2015.03.16-05.52.13:421][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003E43CE0
+[2015.03.16-05.52.16:504][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x317)
+[2015.03.16-05.52.37:344][342]Cmd: TRANSACTION UNDO
+[2015.03.16-05.52.37:344][342]LogEditorTransaction: Undo Vertex Paint
+[2015.03.16-05.52.50:521][187]Cmd: TRANSACTION UNDO
+[2015.03.16-05.52.50:521][187]LogEditorTransaction: Undo Vertex Paint
+[2015.03.16-05.53.09:656][431]Cmd: TRANSACTION UNDO
+[2015.03.16-05.53.09:656][431]LogEditorTransaction: Undo Vertex Paint
+[2015.03.16-05.54.37:172][323]Cmd: TRANSACTION UNDO
+[2015.03.16-05.54.37:172][323]LogEditorTransaction: Undo Vertex Paint
+[2015.03.16-05.54.39:651][473]Cmd: TRANSACTION UNDO
+[2015.03.16-05.54.39:651][473]LogEditorTransaction: Undo Vertex Paint
+[2015.03.16-05.54.40:955][559]Cmd: TRANSACTION UNDO
+[2015.03.16-05.54.40:955][559]LogEditorTransaction: Undo Remove Instance Vertex Colors
+[2015.03.16-05.55.09:546][518]Cmd: TRANSACTION UNDO
+[2015.03.16-05.55.09:546][518]LogEditorTransaction: Undo Fill Vertex Colors
+[2015.03.16-05.55.10:742][576]Cmd: TRANSACTION UNDO
+[2015.03.16-05.55.10:742][576]LogEditorTransaction: Undo Vertex Paint
+[2015.03.16-05.55.11:652][636]Cmd: TRANSACTION UNDO
+[2015.03.16-05.55.11:652][636]LogEditorTransaction: Undo Fill Vertex Colors
+[2015.03.16-05.55.12:458][687]Cmd: TRANSACTION UNDO
+[2015.03.16-05.55.12:458][687]LogEditorTransaction: Undo Vertex Paint
+[2015.03.16-05.55.13:228][735]Cmd: TRANSACTION UNDO
+[2015.03.16-05.55.13:228][735]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.16-05.55.16:669][971]Cmd: TRANSACTION REDO
+[2015.03.16-05.55.16:669][971]LogEditorTransaction: Redo Clicking on Actors
+[2015.03.16-05.55.34:105][652]LogMeshPaintEdMode: Pushing colors to raw mesh: Wall_Window_400x300 (LOD0)
+[2015.03.16-05.55.34:153][652]LogStaticMesh: Building static mesh Wall_Window_400x300...
+[2015.03.16-05.55.34:154][652]LogStaticMesh: Built static mesh [1.427998ms] /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300
+[2015.03.16-05.55.41:444][121]Cmd: TRANSACTION UNDO
+[2015.03.16-05.55.41:444][121]LogEditorTransaction: Undo Copy Instance Colors To Mesh
+[2015.03.16-05.56.17:404][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2015.03.16-05.56.22:413][717]Cmd: EDIT COPY
+[2015.03.16-05.56.22:828][743]Cmd: EDIT PASTE
+[2015.03.16-05.56.37:932][704]Cmd: EDIT COPY
+[2015.03.16-05.56.38:267][725]Cmd: EDIT PASTE
+[2015.03.16-05.57.06:075][493]Cmd: EDIT COPY
+[2015.03.16-05.57.06:342][510]Cmd: EDIT PASTE
+[2015.03.16-05.57.28:442][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x303)
+[2015.03.16-05.57.29:517][947]Cmd: EDIT COPY
+[2015.03.16-05.57.30:173][989]Cmd: EDIT PASTE
+[2015.03.16-05.57.45:302][894]Cmd: EDIT COPY
+[2015.03.16-05.57.45:619][913]Cmd: EDIT PASTE
+[2015.03.16-05.57.51:251][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2015.03.16-05.57.58:133][648]Cmd: EDIT COPY
+[2015.03.16-05.57.58:339][661]Cmd: EDIT PASTE
+[2015.03.16-05.58.52:767][912]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.16-05.59.13:127][221]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints'
+[2015.03.16-05.59.16:793][459]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.03.16-05.59.57:194][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x307)
+[2015.03.16-06.00.16:243][250]Cmd: TRANSACTION UNDO
+[2015.03.16-06.00.16:243][250]LogEditorTransaction: Undo Scale Actors
+[2015.03.16-06.00.18:198][352]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Stairs5)
+[2015.03.16-06.00.26:804][806]Cmd: ACTOR MIRROR Y=-1
+[2015.03.16-06.00.55:710][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x406)
+[2015.03.16-06.00.56:578][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x307)
+[2015.03.16-06.01.09:927][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stairs)
+[2015.03.16-06.01.31:971][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x307)
+[2015.03.16-06.01.32:822][818]Cmd: EDIT COPY
+[2015.03.16-06.01.33:584][865]Cmd: EDIT PASTE
+[2015.03.16-06.02.25:601][977]LogSavePackage: Save=356.547577ms
+[2015.03.16-06.02.25:601][977]LogSavePackage: Moving '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Minimal_Default_Auto2E74CC85347178F4F20D9A9AD39B3AC6E.tmp' to '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2015.03.16-06.02.25:613][977]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.495
+[2015.03.16-06.02.25:613][977]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.495
+[2015.03.16-06.02.31:773][347]Cmd: TRANSACTION UNDO
+[2015.03.16-06.02.31:773][347]LogEditorTransaction: Undo Scale Actors
+[2015.03.16-06.03.13:199][830]MapCheck: New page: Map Check
+[2015.03.16-06.03.13:232][830]LightingResults: New page: Lighting Build - Mar 15, 2015, 6:03:13 PM
+[2015.03.16-06.03.18:845][830]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.03.16-06.03.18:845][830]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.03.16-06.03.18:845][830]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.03.16-06.03.18:845][830]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.03.16-06.03.18:845][830]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.03.16-06.03.19:074][830]LogEditorBuildUtils: Build time 0:00:05
+[2015.03.16-06.03.19:999][838]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x301)
+[2015.03.16-06.03.21:206][903]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x303)
+[2015.03.16-06.03.44:096][253]Job is a success!
+[2015.03.16-06.03.45:387][254]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.03.16-06.03.45:770][254]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.03.16-06.03.45:775][254]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.03.16-06.03.45:783][254]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.03.16-06.03.45:805][254]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.03.16-06.03.45:861][254]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.03.16-06.03.45:907][254]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.03.16-06.03.46:012][254]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.03.16-06.03.46:045][254]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.03.16-06.03.46:098][254]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.03.16-06.03.46:286][254]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.03.16-06.03.46:750][254]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.03.16-06.03.46:888][254]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.03.16-06.03.47:259][254]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.03.16-06.03.47:410][254]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.03.16-06.03.47:830][254]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.03.16-06.03.48:024][254]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.03.16-06.03.48:465][254]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.03.16-06.03.49:419][254]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.03.16-06.03.50:513][254]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.03.16-06.03.50:962][254]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.03.16-06.03.51:025][254]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.03.16-06.03.51:042][254]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.03.16-06.03.51:047][254]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.03.16-06.03.51:113][254]Lightmass on NINJABOT: 31.0 sec total, 175 ms importing, 8 ms setup, 1.70 sec photons, 29.1 sec processing, 0 ms extra exporting [62/62 mappings]. Threads: 2:25 min total, 1:27 min processing.
+[2015.03.16-06.03.51:179][254]LogStaticLightingSystem: Illumination: 37.9 sec (6.42 sec encoding lightmaps)
+[2015.03.16-06.03.51:179][254]LogStaticLightingSystem: Lightmap texture memory:  7.4 MB (7.4 MB streaming, 0.0 MB non-streaming), 18 textures
+[2015.03.16-06.03.51:179][254]LogStaticLightingSystem: Shadowmap texture memory: 24.3 MB (24.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2015.03.16-06.03.51:888][255]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.03.16-06.03.51:888][255]MapCheck: New page: Minimal_Default - Mar 15, 2015, 6:03:51 PM
+[2015.03.16-06.03.52:135][255]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 246.142ms to complete.
+[2015.03.16-06.04.27:950][797]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/StarterContent/Maps/Minimal_Default.HQ_Lightmap0_3. Streaming mips will be recached.
+[2015.03.16-06.04.27:966][797]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.03.16-06.04.37:429][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2015.03.16-06.04.39:116][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x305)
+[2015.03.16-06.04.40:210][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2015.03.16-06.04.40:789][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x305)
+[2015.03.16-06.07.35:323][504]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.16-06.07.35:323][504]PIE: New page: PIE session: Minimal_Default (Mar 15, 2015, 6:07:35 PM)
+[2015.03.16-06.07.35:335][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011101s)
+[2015.03.16-06.07.35:336][504]LogPlayLevel: PIE: World Init took: (0.001073s)
+[2015.03.16-06.07.35:336][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012498s)
+[2015.03.16-06.07.35:369][504]LogWorld: Game class is 'GameMode'
+[2015.03.16-06.07.35:373][504]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.16-06.07.35:396][504]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.03.16-00.07.35
+[2015.03.16-06.07.35:397][504]LogWorld: Bringing up level for play took: 0.023791
+[2015.03.16-06.07.35:402][504]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.316
+[2015.03.16-06.08.07:779][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023A94EA0
+[2015.03.16-06.08.33:713][270]LogSavePackage: Save=637.885315ms
+[2015.03.16-06.08.33:713][270]LogSavePackage: Moving '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Minimal_DefaultA6D4FCD64B4F0BE25742F8A9C873E2DC.tmp' to '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.03.16-06.08.33:753][270]LogFileHelpers: Saving map 'Minimal_Default' took 0.931
+[2015.03.16-06.08.34:948][336]MapCheck: New page: Map Check
+[2015.03.16-06.08.34:969][336]LightingResults: New page: Lighting Build - Mar 15, 2015, 6:08:34 PM
+[2015.03.16-06.08.40:159][336]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.03.16-06.08.40:159][336]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.03.16-06.08.40:159][336]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.03.16-06.08.40:159][336]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.03.16-06.08.40:159][336]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.03.16-06.08.40:284][336]LogEditorBuildUtils: Build time 0:00:05
+[2015.03.16-06.09.05:123][892]Job is a success!
+[2015.03.16-06.09.06:328][893]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.03.16-06.09.06:703][893]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.03.16-06.09.06:711][893]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.03.16-06.09.06:738][893]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.03.16-06.09.06:766][893]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.03.16-06.09.06:818][893]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.03.16-06.09.06:864][893]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.03.16-06.09.06:960][893]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.03.16-06.09.06:993][893]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.03.16-06.09.07:046][893]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.03.16-06.09.07:236][893]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.03.16-06.09.07:696][893]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.03.16-06.09.07:835][893]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.03.16-06.09.08:205][893]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.03.16-06.09.08:355][893]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.03.16-06.09.08:778][893]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.03.16-06.09.08:933][893]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.03.16-06.09.09:371][893]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.03.16-06.09.10:319][893]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.03.16-06.09.11:401][893]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2015.03.16-06.09.11:860][893]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.03.16-06.09.11:921][893]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.03.16-06.09.11:937][893]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.03.16-06.09.11:941][893]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2015.03.16-06.09.11:970][893]Lightmass on NINJABOT: 30.8 sec total, 347 ms importing, 7 ms setup, 1.58 sec photons, 28.7 sec processing, 0 ms extra exporting [62/62 mappings]. Threads: 2:23 min total, 1:27 min processing.
+[2015.03.16-06.09.11:986][893]LogStaticLightingSystem: Illumination: 36.9 sec (6.37 sec encoding lightmaps)
+[2015.03.16-06.09.11:987][893]LogStaticLightingSystem: Lightmap texture memory:  7.4 MB (7.4 MB streaming, 0.0 MB non-streaming), 18 textures
+[2015.03.16-06.09.11:987][893]LogStaticLightingSystem: Shadowmap texture memory: 48.7 MB (48.7 MB streaming, 0.0 MB non-streaming), 12 textures
+[2015.03.16-06.09.12:146][894]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.03.16-06.09.12:146][894]MapCheck: New page: Minimal_Default - Mar 15, 2015, 6:09:12 PM
+[2015.03.16-06.09.12:336][894]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 189.353ms to complete.
+[2015.03.16-06.09.14:159][ 13]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.16-06.09.14:159][ 13]PIE: New page: PIE session: Minimal_Default (Mar 15, 2015, 6:09:14 PM)
+[2015.03.16-06.09.14:170][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010009s)
+[2015.03.16-06.09.14:171][ 13]LogPlayLevel: PIE: World Init took: (0.001008s)
+[2015.03.16-06.09.14:171][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011247s)
+[2015.03.16-06.09.14:205][ 13]LogWorld: Game class is 'GameMode'
+[2015.03.16-06.09.14:208][ 13]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.16-06.09.14:229][ 13]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.03.16-00.09.14
+[2015.03.16-06.09.14:231][ 13]LogWorld: Bringing up level for play took: 0.021404
+[2015.03.16-06.09.14:235][ 13]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.85
+[2015.03.16-06.09.21:170][652]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/StarterContent/Maps/Minimal_Default.HQ_Lightmap0_2. Streaming mips will be recached.
+[2015.03.16-06.09.21:186][652]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.03.16-06.09.32:577][667]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D8DA660
+[2015.03.16-06.09.37:260][993]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/StarterContent/Maps/Minimal_Default.HQ_Lightmap0_4. Streaming mips will be recached.
+[2015.03.16-06.09.37:281][993]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.03.16-06.09.39:072][ 92]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/StarterContent/Maps/Minimal_Default.HQ_Lightmap1_3. Streaming mips will be recached.
+[2015.03.16-06.09.39:092][ 92]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.03.16-06.09.41:251][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x305)
+[2015.03.16-06.09.44:760][394]LogActorFactory: Actor Factory created Wall_400x300
+[2015.03.16-06.09.48:177][608]LogActorFactory: Actor Factory created Wall_400x300
+[2015.03.16-06.10.50:883][779]Cmd: EDIT COPY
+[2015.03.16-06.10.51:138][795]Cmd: EDIT PASTE
+[2015.03.16-06.11.50:547][708]Cmd: EDIT COPY
+[2015.03.16-06.11.50:790][724]Cmd: EDIT PASTE
+[2015.03.16-06.12.21:386][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x310)
+[2015.03.16-06.12.27:440][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x311)
+[2015.03.16-06.12.39:791][ 67]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/StarterContent/Maps/Minimal_Default.HQ_Lightmap0_1. Streaming mips will be recached.
+[2015.03.16-06.12.39:807][ 67]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.03.16-06.12.53:611][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x310)
+[2015.03.16-06.13.10:171][ 99]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.03.16-06.13.12:524][218]LogActorFactory: Actor Factory created SM_Couch
+[2015.03.16-06.13.13:550][274]LogActorFactory: Actor Factory created SM_Couch
+[2015.03.16-06.13.40:311][893]LogActorFactory: Actor Factory created SM_Lamp_Wall
+[2015.03.16-06.13.50:048][484]LogActorFactory: Actor Factory created SM_Lamp_Wall
+[2015.03.16-06.14.27:338][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x310)
+[2015.03.16-06.14.28:089][951]Cmd: EDIT COPY
+[2015.03.16-06.14.28:398][971]Cmd: EDIT PASTE
+[2015.03.16-06.14.51:257][508]Cmd: EDIT COPY
+[2015.03.16-06.14.51:458][520]Cmd: EDIT PASTE
+[2015.03.16-06.16.04:984][351]Cmd: DELETE
+[2015.03.16-06.16.04:984][351]Cmd: ACTOR DELETE
+[2015.03.16-06.16.04:986][351]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.16-06.16.05:018][351]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2015.03.16-06.16.11:674][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x309)
+[2015.03.16-06.16.12:011][816]Cmd: EDIT COPY
+[2015.03.16-06.16.12:253][832]Cmd: EDIT PASTE
+[2015.03.16-06.16.53:337][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x309)
+[2015.03.16-06.17.14:990][845]LogActorFactory: Actor Factory created SM_TableRound
+[2015.03.16-06.17.20:114][173]LogActorFactory: Actor Factory created SM_TableRound
+[2015.03.16-06.17.22:053][268]LogActorFactory: Actor Factory created SM_Chair
+[2015.03.16-06.17.23:270][342]LogActorFactory: Actor Factory created SM_Chair
+[2015.03.16-06.17.24:394][388]LogActorFactory: Actor Factory created SM_Chair
+[2015.03.16-06.17.25:655][465]LogActorFactory: Actor Factory created SM_Chair
+[2015.03.16-06.17.30:690][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2015.03.16-06.17.40:134][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2015.03.16-06.17.56:141][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x312)
+[2015.03.16-06.18.07:703][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x312)
+[2015.03.16-06.18.10:351][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x312)
+[2015.03.16-06.18.22:689][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x312)
+[2015.03.16-06.18.30:721][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x313)
+[2015.03.16-06.18.46:598][710]Cmd: EDIT COPY
+[2015.03.16-06.18.46:829][725]Cmd: EDIT PASTE
+[2015.03.16-06.19.07:228][954]LogSavePackage: Save=643.674133ms
+[2015.03.16-06.19.07:228][954]LogSavePackage: Moving '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Minimal_Default_Auto33657D50F47C067E70D270DA50422C816.tmp' to '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2015.03.16-06.19.07:240][954]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.762
+[2015.03.16-06.19.07:240][954]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.762
+[2015.03.16-06.19.31:378][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x313)
+[2015.03.16-06.20.10:132][649]LogStaticMesh: Building static mesh SM_Door...
+[2015.03.16-06.20.10:190][649]LogStaticMesh: Built static mesh [58.636383ms] /Game/StarterContent/Props/SM_Door.SM_Door
+[2015.03.16-06.20.10:225][649]LogActorFactory: Actor Factory created SM_Door
+[2015.03.16-06.20.15:773][  0]LogActorFactory: Actor Factory created SM_Door
+[2015.03.16-06.20.26:741][654]LogStaticMesh: Building static mesh SM_DoorFrame...
+[2015.03.16-06.20.26:780][654]LogStaticMesh: Built static mesh [39.070045ms] /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2015.03.16-06.20.26:821][654]LogActorFactory: Actor Factory created SM_DoorFrame
+[2015.03.16-06.20.28:005][725]LogActorFactory: Actor Factory created SM_DoorFrame
+[2015.03.16-06.20.44:847][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.03.16-06.21.00:274][839]Cmd: EDIT COPY
+[2015.03.16-06.21.00:587][859]Cmd: EDIT PASTE
+[2015.03.16-06.21.13:264][684]Cmd: EDIT COPY
+[2015.03.16-06.21.13:693][712]Cmd: EDIT PASTE
+[2015.03.16-06.21.23:904][342]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door3)
+[2015.03.16-06.22.11:580][ 18]Cmd: TRANSACTION UNDO
+[2015.03.16-06.22.11:580][ 18]LogEditorTransaction: Undo Replace component used material
+[2015.03.16-06.22.13:282][106]Cmd: TRANSACTION UNDO
+[2015.03.16-06.22.13:282][106]LogEditorTransaction: Undo Replace component used material
+[2015.03.16-06.22.14:197][163]Cmd: TRANSACTION UNDO
+[2015.03.16-06.22.14:197][163]LogEditorTransaction: Undo Replace component used material
+[2015.03.16-06.22.14:900][206]Cmd: TRANSACTION UNDO
+[2015.03.16-06.22.14:900][206]LogEditorTransaction: Undo Replace component used material
+[2015.03.16-06.22.24:150][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.03.16-06.22.26:235][932]Cmd: EDIT COPY
+[2015.03.16-06.22.26:591][955]Cmd: EDIT PASTE
+[2015.03.16-06.22.39:061][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door4)
+[2015.03.16-06.22.48:210][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x406)
+[2015.03.16-06.23.09:958][617]LogActorFactory: Actor Factory created SM_Shelf
+[2015.03.16-06.23.12:094][745]LogActorFactory: Actor Factory created SM_Shelf
+[2015.03.16-06.23.55:415][430]LogActorFactory: Actor Factory created SM_Couch
+[2015.03.16-06.23.58:663][629]LogActorFactory: Actor Factory created SM_Couch
+[2015.03.16-06.24.15:278][730]Cmd: DELETE
+[2015.03.16-06.24.15:278][730]Cmd: ACTOR DELETE
+[2015.03.16-06.24.15:280][730]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.16-06.24.15:297][730]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.03.16-06.24.20:274][964]LogActorFactory: Actor Factory created SM_Couch
+[2015.03.16-06.24.21:070][ 14]LogActorFactory: Actor Factory created SM_Couch
+[2015.03.16-06.25.38:943][  7]Cmd: EDIT COPY
+[2015.03.16-06.25.39:153][ 21]Cmd: EDIT PASTE
+[2015.03.16-06.25.41:490][170]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Couch3)
+[2015.03.16-06.25.47:897][516]Cmd: ACTOR MIRROR X=-1
+[2015.03.16-06.26.07:405][670]LogTexture:Display: Building textures: T_Concrete_Panels_D (AutoDXT)
+[2015.03.16-06.26.11:858][670]LogTexture:Display: Building textures: T_Concrete_Panels_N (BC5)
+[2015.03.16-06.26.12:537][670]LogMaterial: Missing cached shader map for material M_Concrete_Panels, compiling. 
+[2015.03.16-06.26.50:551][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch2)
+[2015.03.16-06.27.47:061][ 43]Cmd: EDIT COPY
+[2015.03.16-06.27.47:392][ 64]Cmd: EDIT PASTE
+[2015.03.16-06.28.15:548][854]Cmd: EDIT COPY
+[2015.03.16-06.28.15:757][867]Cmd: EDIT PASTE
+[2015.03.16-06.28.25:847][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2015.03.16-06.29.18:257][603]LogSavePackage: Save=665.685791ms
+[2015.03.16-06.29.18:257][603]LogSavePackage: Moving '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Minimal_Default_Auto4E3F646F84FAC0202B6FCAA8821E6F7C2.tmp' to '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2015.03.16-06.29.18:269][603]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.782
+[2015.03.16-06.29.18:269][603]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.782
+[2015.03.16-06.29.44:430][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2015.03.16-06.29.54:131][749]LogActorFactory: Actor Factory created SM_TableRound
+[2015.03.16-06.29.55:368][820]LogActorFactory: Actor Factory created SM_TableRound
+[2015.03.16-06.30.07:669][583]Cmd: EDIT COPY
+[2015.03.16-06.30.07:894][591]Cmd: EDIT PASTE
+[2015.03.16-06.30.18:948][255]LogActorFactory: Actor Factory created SM_CornerFrame
+[2015.03.16-06.30.19:599][292]LogActorFactory: Actor Factory created SM_CornerFrame
+[2015.03.16-06.30.23:014][502]Cmd: DELETE
+[2015.03.16-06.30.23:014][502]Cmd: ACTOR DELETE
+[2015.03.16-06.30.23:016][502]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.16-06.30.23:040][502]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2015.03.16-06.30.31:982][ 34]LogActorFactory: Actor Factory created SM_Couch
+[2015.03.16-06.30.32:653][ 75]LogActorFactory: Actor Factory created SM_Couch
+[2015.03.16-06.30.48:740][ 69]LogActorFactory: Actor Factory created SM_Chair
+[2015.03.16-06.30.49:340][102]LogActorFactory: Actor Factory created SM_Chair
+[2015.03.16-06.30.50:134][132]LogActorFactory: Actor Factory created SM_Chair
+[2015.03.16-06.30.51:141][190]LogActorFactory: Actor Factory created SM_Chair
+[2015.03.16-06.30.59:704][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair4)
+[2015.03.16-06.31.11:838][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair3)
+[2015.03.16-06.31.20:043][ 40]Cmd: EDIT COPY
+[2015.03.16-06.31.20:271][ 54]Cmd: EDIT PASTE
+[2015.03.16-06.31.40:454][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair4)
+[2015.03.16-06.31.50:642][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch4)
+[2015.03.16-06.32.05:015][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair3)
+[2015.03.16-06.32.05:929][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair4)
+[2015.03.16-06.32.28:017][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound3)
+[2015.03.16-06.32.39:725][377]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.16-06.32.39:725][377]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2015.03.16-06.33.23:647][104]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.16-06.33.25:646][228]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.16-06.33.25:647][228]PIE: New page: PIE session: Minimal_Default (Mar 15, 2015, 6:33:25 PM)
+[2015.03.16-06.33.25:662][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013302s)
+[2015.03.16-06.33.25:663][228]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2015.03.16-06.33.25:663][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014585s)
+[2015.03.16-06.33.25:696][228]LogWorld: Game class is 'GameMode'
+[2015.03.16-06.33.25:699][228]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.16-06.33.25:734][228]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.03.16-00.33.25
+[2015.03.16-06.33.25:735][228]LogWorld: Bringing up level for play took: 0.035092
+[2015.03.16-06.33.25:740][228]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.654
+[2015.03.16-06.33.29:467][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004CB007C0
+[2015.03.16-06.33.31:165][620]MapCheck: New page: Map Check
+[2015.03.16-06.33.31:195][620]LightingResults: New page: Lighting Build - Mar 15, 2015, 6:33:31 PM
+[2015.03.16-06.33.36:337][620]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.03.16-06.33.36:337][620]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.03.16-06.33.36:337][620]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.03.16-06.33.36:337][620]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.03.16-06.33.36:337][620]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.03.16-06.33.36:505][620]LogEditorBuildUtils: Build time 0:00:05
+[2015.03.16-06.33.36:514][620]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Door, compiling. 
+[2015.03.16-06.33.36:518][620]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Door, compiling. 
+[2015.03.16-06.33.36:544][621]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2015.03.16-06.33.36:550][621]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2015.03.16-06.33.36:602][622]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2015.03.16-06.33.36:607][622]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2015.03.16-06.33.36:612][622]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Panels, compiling. 
+[2015.03.16-06.33.36:619][622]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Panels, compiling. 
+[2015.03.16-06.34.12:268][ 36]Job is a success!
+[2015.03.16-06.34.13:689][ 37]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.03.16-06.34.14:020][ 37]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.03.16-06.34.14:025][ 37]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.03.16-06.34.14:033][ 37]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.03.16-06.34.14:081][ 37]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.03.16-06.34.14:170][ 37]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.03.16-06.34.14:268][ 37]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.03.16-06.34.14:391][ 37]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.03.16-06.34.14:603][ 37]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.03.16-06.34.14:927][ 37]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.03.16-06.34.15:147][ 37]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.03.16-06.34.15:638][ 37]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.03.16-06.34.15:786][ 37]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.03.16-06.34.16:164][ 37]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.03.16-06.34.16:312][ 37]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.03.16-06.34.16:732][ 37]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.03.16-06.34.16:886][ 37]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.03.16-06.34.17:326][ 37]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.03.16-06.34.18:287][ 37]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2015.03.16-06.34.19:368][ 37]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2015.03.16-06.34.20:456][ 37]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2015.03.16-06.34.20:713][ 37]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2015.03.16-06.34.20:730][ 37]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2015.03.16-06.34.20:734][ 37]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2015.03.16-06.34.20:787][ 37]Lightmass on NINJABOT: 40.1 sec total, 518 ms importing, 84 ms setup, 1.87 sec photons, 37.5 sec processing, 0 ms extra exporting [95/95 mappings]. Threads: 3:07 min total, 1:55 min processing.
+[2015.03.16-06.34.20:814][ 37]LogStaticLightingSystem: Illumination: 49.5 sec (7.93 sec encoding lightmaps)
+[2015.03.16-06.34.20:814][ 37]LogStaticLightingSystem: Lightmap texture memory:  8.7 MB (8.7 MB streaming, 0.0 MB non-streaming), 18 textures
+[2015.03.16-06.34.20:814][ 37]LogStaticLightingSystem: Shadowmap texture memory: 81.0 MB (81.0 MB streaming, 0.0 MB non-streaming), 18 textures
+[2015.03.16-06.34.21:358][ 38]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.03.16-06.34.21:358][ 38]MapCheck: New page: Minimal_Default - Mar 15, 2015, 6:34:21 PM
+[2015.03.16-06.34.21:361][ 38]MapCheck:Warning: Warning Sphere2 'Sphere' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.03.16-06.34.21:362][ 38]MapCheck:Warning: Warning Sphere_62 'Sphere' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.03.16-06.34.21:622][ 38]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 263.829ms to complete.
+[2015.03.16-06.35.08:730][871]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.03.16-06.35.12:659][130]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/StarterContent/Maps/Minimal_Default.HQ_Lightmap1_2. Streaming mips will be recached.
+[2015.03.16-06.35.12:670][130]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.03.16-06.35.16:107][313]Cmd: DELETE
+[2015.03.16-06.35.16:107][313]Cmd: ACTOR DELETE
+[2015.03.16-06.35.16:109][313]LogEditorActor: Deleted Actor: Brush
+[2015.03.16-06.35.16:111][313]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.03.16-06.35.16:161][313]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2015.03.16-06.35.34:746][517]Cmd: DELETE
+[2015.03.16-06.35.34:746][517]Cmd: ACTOR DELETE
+[2015.03.16-06.35.34:748][517]LogEditorActor: Deleted Actor: Character
+[2015.03.16-06.35.34:765][517]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.03.16-06.35.45:922][249]Cmd: DELETE
+[2015.03.16-06.35.45:922][249]Cmd: ACTOR DELETE
+[2015.03.16-06.35.45:924][249]LogEditorActor: Deleted Actor: Actor
+[2015.03.16-06.35.45:941][249]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.03.16-06.35.51:087][511]LogSavePackage: Save=800.352295ms
+[2015.03.16-06.35.51:087][511]LogSavePackage: Moving '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Saved/Minimal_DefaultC94758EB4671BFCC5F24F8B5C2537407.tmp' to '../../../../../../Users/Brad/Documents/Unreal Projects/MyHouse/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.03.16-06.35.51:156][511]LogFileHelpers: Saving map 'Minimal_Default' took 1.125
+[2015.03.16-06.35.57:041][877]Cmd: QUIT_EDITOR
+[2015.03.16-06.35.57:369][877]LogExit: Preparing to exit.
+[2015.03.16-06.35.57:652][877]LogExit: Editor shut down
+[2015.03.16-06.35.57:653][877]LogExit: Transaction tracking system shut down
+[2015.03.16-06.35.57:655][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C876980
+[2015.03.16-06.35.57:655][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000162F2480
+[2015.03.16-06.35.57:655][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000161A1F80
+[2015.03.16-06.35.57:655][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016E0D940
+[2015.03.16-06.35.57:655][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004C1D44A0
+[2015.03.16-06.35.57:747][877]LogExit: Object subsystem successfully closed.
+[2015.03.16-06.35.57:838][877]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (178)
+[2015.03.16-06.35.57:838][877]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.03.16-06.35.57:838][877]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.03.16-06.35.57:838][877]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.03.16-06.35.57:838][877]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.03.16-06.35.57:838][877]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.03.16-06.35.57:838][877]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.03.16-06.35.57:838][877]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.03.16-06.35.57:838][877]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.03.16-06.35.57:839][877]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.03.16-06.35.58:068][877]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.03.16-06.35.58:069][877]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.03.16-06.35.58:069][877]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.03.16-06.35.58:069][877]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.03.16-06.35.58:069][877]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.03.16-06.35.58:125][877]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.03.16-06.35.58:126][877]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.03.16-06.35.58:126][877]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.03.16-06.35.58:127][877]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.16-06.35.58:127][877]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.16-06.35.58:127][877]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.16-06.35.58:127][877]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.16-06.35.58:127][877]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.16-06.35.58:127][877]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.16-06.35.58:127][877]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.16-06.35.58:127][877]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.16-06.35.58:127][877]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.16-06.35.58:127][877]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.16-06.35.58:127][877]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.16-06.35.58:127][877]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.16-06.35.58:128][877]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.16-06.35.58:128][877]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.16-06.35.58:128][877]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.16-06.35.58:128][877]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.03.16-06.35.58:128][877]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.03.16-06.35.58:128][877]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.03.16-06.35.58:187][877]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.03.16-06.35.58:187][877]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.16-06.35.58:187][877]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.16-06.35.58:187][877]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.16-06.35.58:187][877]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.16-06.35.58:187][877]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.16-06.35.58:187][877]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.16-06.35.58:187][877]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.16-06.35.58:187][877]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.16-06.35.58:187][877]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.03.16-06.35.58:187][877]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.03.16-06.35.58:187][877]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.03.16-06.35.58:187][877]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.03.16-06.35.58:188][877]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.03.16-06.35.58:188][877]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.03.16-06.35.58:188][877]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.03.16-06.35.58:188][877]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.03.16-06.35.58:188][877]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.03.16-06.35.58:188][877]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.03.16-06.35.58:188][877]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.03.16-06.35.58:188][877]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.03.16-06.35.58:188][877]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.03.16-06.35.58:188][877]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.03.16-06.35.58:188][877]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.03.16-06.35.58:189][877]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.03.16-06.35.58:189][877]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.03.16-06.35.58:189][877]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.03.16-06.35.58:289][877]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.03.16-06.35.58:289][877]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.03.16-06.35.58:301][877]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.03.16-06.35.58:301][877]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.03.16-06.35.58:301][877]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.03.16-06.35.58:301][877]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.03.16-06.35.58:301][877]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.03.16-06.35.58:301][877]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.03.16-06.35.58:301][877]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.03.16-06.35.58:302][877]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.03.16-06.35.58:302][877]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.03.16-06.35.58:302][877]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.03.16-06.35.58:302][877]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.03.16-06.35.58:302][877]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.03.16-06.35.58:302][877]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.03.16-06.35.58:302][877]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.03.16-06.35.58:302][877]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.03.16-06.35.58:329][877]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.03.16-06.35.58:329][877]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.03.16-06.35.58:329][877]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.03.16-06.35.58:329][877]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.03.16-06.35.58:329][877]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.03.16-06.35.58:329][877]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.03.16-06.35.58:329][877]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.03.16-06.35.58:329][877]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.03.16-06.35.58:329][877]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.03.16-06.35.58:329][877]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.03.16-06.35.58:346][877]LogDerivedDataCache: Shutdown
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.03.16-06.35.58:346][877]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.16-06.35.58:347][877]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.16-06.35.58:353][877]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.16-06.35.58:353][877]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.16-06.35.58:353][877]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.16-06.35.58:353][877]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.16-06.35.58:353][877]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.16-06.35.58:353][877]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.16-06.35.58:353][877]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.16-06.35.58:353][877]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.16-06.35.58:354][877]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.16-06.35.58:355][877]LogExit: Exiting.
+[2015.03.16-06.35.58:388][877]Log file closed, 03/16/15 00:35:58
